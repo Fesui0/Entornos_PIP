@@ -1,7 +1,6 @@
-import charts as ch
-
+from charts import generate_pie_chart
 def main():
-    ch.generate_pie_chart()
+    generate_pie_chart()
 
 if __name__ == '__main__':
     main()
