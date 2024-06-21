@@ -7,7 +7,7 @@ def get_country(Country, path):
   return filtered_data
 
 def data():
-  path = './csv/data.csv'
+  path = '/home/joseph/home/Documentos/Programación/Entornos_PIP/charts/csv/data.csv'
   data = rc.read_csv(path)
   return data
   

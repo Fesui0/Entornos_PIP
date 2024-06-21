@@ -13,6 +13,6 @@ def read_csv(path):
   return data   
 
 if __name__ == '__main__':
-  print(read_csv('./csv/data.csv'))
+  print(read_csv('/home/joseph/home/Documentos/Programación/Entornos_PIP/charts/csv/data.csv'))
 
 
