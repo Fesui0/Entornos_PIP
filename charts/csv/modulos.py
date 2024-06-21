@@ -27,7 +27,7 @@ def get_column(data):
 
   
 if __name__ == '__main__':
-  path = './csv/data_csv'
+  path = '/home/joseph/home/Documentos/Programación/Entornos_PIP/charts/csv/data.csv'
   data_ = data()
   get_column_ = get_column(data_)
   print(get_column_)

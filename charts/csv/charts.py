@@ -5,7 +5,8 @@ def pie_plot(labels,values):
   fig, ax = mp.subplots()
   ax.pie(values, labels=labels )
   ax.axis('equal')
-  mp.show()
+  mp.savefig("pie.png")
+  mp.close()
 
 
 if __name__ == '__main__':
